@@ -1,13 +1,3 @@
-<div align="center">
-  <a href="https://nanonets.com/">
-    <img src="https://nanonets.com/logo.png" alt="NanoNets OCR Python Sample" width="100"/>
-    </a>
-</div>
-
-<h1 align="center">NanoNets OCR Python Sample</h1>
-
-** **
-
 ## Reading Number Plates
 
 Images and annotations taken from - https://dataturks.com/projects/devika.mishra/Indian_Number_plates
