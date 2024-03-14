@@ -2,7 +2,7 @@
 
 Images and annotations taken from - https://dataturks.com/projects/devika.mishra/Indian_Number_plates
 
-Annotations include bounding boxes for each image and have the same name as the image name. You can find the example to train a model in python, by updating the api-key and model id in corresponding file. There is also a pre-processed json annotations folder that are ready payload for nanonets api.
+Annotations include bounding boxes for each image and have the same name as the image name. I have added the example to train a model in python, by updating the api-key and model id in corresponding file. There is also a pre-processed json annotations folder that are ready payload for nanonets api.
 
 
 ** **
@@ -24,7 +24,7 @@ cd nanonets-ocr-sample-python
 sudo pip install requests tqdm
 ```
 
-### Step 2: Get your free API Key
+### Step 2: Get the free API Key from nanonet website
 Get your free API Key from http://app.nanonets.com/#/keys
 
 ### Step 3: Set the API key as an Environment Variable
@@ -76,5 +76,4 @@ python ./code/prediction.py ./images/151.jpg
 
 *Note the python sample uses the converted json instead of the xml payload for convenience purposes, hence it has no dependencies.*
 
-### Nanonets PDF to CSV 
-We've recently launched a tool that lets you easily convert PDFs to CSVs from [here](https://nanonets.com/convert-pdf-to-csv)
+
